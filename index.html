@@ -10,35 +10,38 @@
 
 <body>
     <div class="website">
-        <nav <header>
-            <div class="logo">ZB</div>
-
-            <nav>
-                <a href="#home">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#interests">INTERESTS</a>
-                <a href="#vibe">MY VIBE</a>
-                <a href="#creative">CREATIVE</a>
-                <a href="#contact">CONTACT</a>
+        <!-- Ik gebruik een header om de navigatie duidelijk te structureren. Door de verschillende onderdelen logisch te ordenen, ontstaat een overzichtelijke informatiestructuur. Dit draagt bij aan de gebruiksvriendelijkheid en maakt het voor bezoekers makkelijker om door mijn website te navigeren. -->
+        <header>
+            <a class="logo" href="#home" aria-label="Naar het begin">ZB</a>
+            <nav aria-label="Hoofdnavigatie">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#interests">INTERESTS</a></li>
+                    <li><a href="#vibe">MY VIBE</a></li>
+                    <li><a href="#creative">CREATIVE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
             </nav>
-            </header>
-
-
+        </header>
+        <main>
             <!--HOME-->
-            <section id="home" class="hero">
+            <!-- Ik gebruik een hero-sectie om direct de aandacht van de bezoeker te trekken. Door mijn naam groot weer te geven en deze te combineren met fotografie, creëer ik een duidelijke visuele hiërarchie. De verschillende elementen zorgen samen voor een evenwichtige compositie. -->
+            <section id="home" class="hero"> <!-- ik heb hier hero gebruikt want....-->
                 <div class="hero-left">
                     <p class="handwriting">this is me</p>
-                    <H1>Zoe<br>
+                    <!-- Ik gebruik een h1 omdat mijn naam de belangrijkste titel van de pagina is. Door de naam op twee regels te plaatsen en groot weer te geven, ontstaat typografische hiërarchie. Hierdoor wordt de aandacht als eerste naar mijn naam geleid. -->
+                    <h1>Zoe<br>
                         Bossina
-                    </H1>
+                    </h1>
                     <p class="hero-info"> 21 YEARS / GRONINGEN
                     </p>
-                    <a href="about" class="hero-button"></a>
+                    <a href="#about" class="hero-button">MORE ABOUT ME →</a>
 
                 </div>
 
                 <div class="hero-photo">
-                    <img src="./IMG_8347.jpg" alt="foto van Zoe Bossina">
+                    <img src="images/IMG_8347.jpg" alt="foto van Zoe Bossina">
                 </div>
                 <div class="hero-right">
                     <p>
@@ -49,13 +52,15 @@
                         ❤︎
                     </p>
                 </div>
-                <div class="hero-right"></div>
+                
             </section>
 
             <!--ABOUT ME-->
+            <!-- Ik gebruik een aparte sectie om persoonlijke informatie te groeperen. Hierbij pas ik het Gestaltprincipe van nabijheid toe: informatie die bij elkaar hoort, wordt dicht bij elkaar geplaatst. Dit zorgt voor overzicht en maakt de inhoud makkelijker te begrijpen. -->
+
             <section id="about" class="about">
                 <div class="about-photo">
-                    <img src="./IMG_2.JPG" alt="foto van Zoe Bossina">
+                    <img src="images/IMG_2.JPG" alt="foto van Zoe Bossina">
                 </div>
 
                 <div class="about-text">
@@ -69,7 +74,7 @@
                     <p> My goal is to combine creativity with my own style and ideas.</p>
                 </div>
                 <div class="about-info">
-                    <p>❍ 21 year</p>
+                    <p>❍ 21 years</p>
                     <p>📍 Harkstede/groningen</p>
                     <p>🎓 HBO Communication & Multimedia Design</p>
                     <p>💭 creative, social, eager to learn</p>
@@ -77,13 +82,14 @@
                 </div>
             </section>
             <!-- INTERESTS -->
+            <!-- Ik presenteer mijn interesses in afzonderlijke elementen met iconen en korte teksten. Door herhaling en een consistente indeling ontstaat visuele samenhang. Dit sluit aan bij het Gestaltprincipe van gelijkenis, waarbij elementen met dezelfde vormgeving als een groep worden ervaren. -->
             <section id="interests" class="interests">
 
                 <div class="interest-title">
 
                     <h2>THINGS THAT MAKE ME <span>HAPPY</span></h2>
                 </div>
-
+                <!-- Ik gebruik een gridstructuur om mijn interesses overzichtelijk te ordenen. Door de elementen op een consistente manier uit te lijnen, ontstaat visuele balans. De herhaling van vormen en afstanden ondersteunt de leesbaarheid en compositie. -->
                 <div class="interest-grid">
                     <div class="interest">
                         <h3>⚽︎</h3>
@@ -112,13 +118,14 @@
                     </div>
                 </div>
                 <div class="interest-photo">
-                    <img src="IMG_8370.jpg" alt="sport">
+                    <img src="images/IMG_8370.jpg" alt="sport">
                 </div>
 
 
             </section>
 
             <!--MY VIBE-->
+            <!-- In deze sectie combineer ik typografie, fotografie en korte kernwoorden om mijn persoonlijkheid visueel over te brengen. Door variatie in lettergrootte en beeldgebruik creëer ik contrast en een dynamische compositie. -->
             <section id="vibe" class="vibe">
                 <div class="vibe-title">
                     <h2>
@@ -127,7 +134,7 @@
                     </h2>
                 </div>
 
-                <div class="vibe words">
+                <div class="vibe-words">
                     <span>•HAPPY </span>
                     <span>•CREATIVE </span>
                     <span>•FEMININE </span>
@@ -137,30 +144,33 @@
                 </div>
 
                 <div class="vibe-photos">
-                    <img src="IMG_7892.JPG">
-                    <img src="IMG_8360.JPG">
-                    <img src="IMG_8371.PNG" </div>
+                    <img src="images/IMG_7892.JPG" alt="Persoonlijke foto in mijn sfeercollectie">
+                    <img src="images/IMG_8360.JPG" alt="Persoonlijke foto in mijn sfeercollectie">
+                    <img src="images/IMG_8371.PNG" alt="Persoonlijke sfeerfoto uit mijn collectie">
+                </div>
 
             </section>
 
             <!--MY PHOTOS-->
+            <!-- Ik gebruik een fotogalerij om mijn persoonlijke stijl visueel te laten zien. Door afbeeldingen te groeperen in een grid ontstaat een duidelijke structuur. Hierbij pas ik de ontwerpprincipes herhaling, uitlijning en visuele samenhang toe. -->
             <section class="glimpse">
 
                 <h2>A LITTLE GLIMPSE INTO MY WORLD</h2>
 
                 <div class="photo-grid">
-                    <img src="IMG_6758.jpg">
-                    <img src="IMG_2962.jpg">
-                    <img src="IMG_8372.jpg">
-                    <img src="IMG_8373.jpg">
-                    <img src="IMG_8374.jpg">
-                    <img src="IMG_8375.jpg">
+                    <img src="images/IMG_6758.jpg" alt="Moment uit mijn fotogalerij">
+                    <img src="images/IMG_2962.jpg" alt="Moment uit mijn fotogalerij">
+                    <img src="images/IMG_8372.jpg" alt="Moment uit mijn fotogalerij">
+                    <img src="images/IMG_8373.jpg" alt="Moment uit mijn fotogalerij">
+                    <img src="images/IMG_8374.jpg" alt="Moment uit mijn fotogalerij">
+                    <img src="images/IMG_8375.jpg" alt="Moment uit mijn fotogalerij">
 
                 </div>
             </section>
 
             <!--CREATIVE SIDE-->
-            <section class="creative">
+            <!-- Ik gebruik deze sectie om mijn creatieve interesses overzichtelijk te presenteren. Door een combinatie van tekst, beeld en een genummerde lijst ontstaat een duidelijke informatiehiërarchie. De nummering en consistente vormgeving helpen om de inhoud snel te scannen. -->
+            <section id="creative" class="creative">
 
                 <div class="creative-text">
                     <h2>MY <span>CREATIVE</span> SIDE</h2>
@@ -170,11 +180,11 @@
                         bringing brands to life.
                     </p>
 
-                    <a href="#">SEE MORE →</a>
+                    <a href="#contact">GET IN TOUCH →</a>
                 </div>
 
                 <div class="creative-photo">
-                    <img src="IMG_8376.jpg">
+                    <img src="images/IMG_8376.jpg" alt="Foto bij mijn creatieve interesses">
                 </div>
 
                 <div class="creative-list">
@@ -188,8 +198,10 @@
 
 
 
+        </main>
             <!--FOOTER-->
-            <footer>
+            <!-- Ik gebruik een footer als herkenbare afsluiting van mijn website. Door mijn initialen opnieuw te gebruiken, creëer ik herhaling en consistentie. Hierdoor blijft mijn visuele identiteit ook onderaan de pagina herkenbaar. -->
+            <footer id="contact">
 
                 <p>©2026 Zoe Bossina</p>
 
